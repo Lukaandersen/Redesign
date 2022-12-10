@@ -35,3 +35,62 @@ img {
   max-width: 28px;
   max-height: 26px;
 }
+
+.search_icon {
+  background: #005744;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0;
+  align-items: center;
+}
+
+.search_icon img {
+  filter: invert(1);
+  max-width: 23px;
+  align-self: center;
+}
+
+#search {
+  display: flex;
+}
+#logo_bar {
+  margin: 2rem;
+  display: grid;
+}
+
+.search_bar input {
+  border: 2px solid #005744;
+  padding: 0.2rem 2.5rem;
+}
+
+.account_icons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.account_icons div {
+  background-color: #005744;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0.1rem 1rem 0.1rem 1rem;
+}
+
+.account_icons div div {
+  margin: auto;
+  padding: 0.1rem;
+  max-width: 35px;
+}
+
+.profile_icon a img {
+  filter: invert(1);
+}
+.heart_icon a img {
+  filter: invert(1);
+  width: 85%;
+}
+.cart_icon a img {
+  filter: invert(1);
+  width: 85%;
+}
