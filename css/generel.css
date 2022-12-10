@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+#top_bar {
+  background-color: #005744;
+  padding: 0.4rem;
+}
+
+.menu_link {
+  color: white;
+  font-family: jubilat;
+  font-style: normal;
+  margin-right: 2rem;
+}
+
+#menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 4rem;
+}
+.menu_logo {
+  aspect-ratio: 1/1;
+  margin-right: 2rem;
+  max-width: 28px;
+  max-height: 26px;
+}
