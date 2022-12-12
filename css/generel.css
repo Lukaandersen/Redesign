@@ -1,3 +1,8 @@
+html {
+  --primary: #005744;
+  --gray: #eaeaea;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,8 +10,11 @@ body {
 img {
   width: 100%;
 }
+
+/* Header CSS */
+
 #top_bar {
-  background-color: #005744;
+  background-color: var(--primary);
   padding: 0.4rem;
 }
 
@@ -109,13 +117,63 @@ img {
   margin: auto;
 }
 
+#categories_bar {
+  background-color: var(--gray);
+  padding: 1rem;
+}
+
+.category {
+  margin: auto;
+}
+
+.category a {
+  color: var(--primary);
+}
+
+#nemt_hurtigt {
+  background-color: #f7f3e3;
+  padding: 2rem;
+}
+
+.sellingpoint {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.we_care {
+  color: var(--primary);
+  font-size: 1.6rem;
+}
+
+/* Footer CSS */
+
 #footer_info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   background-color: #005744;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 #footer_info div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
   font-family: jubilat;
   color: white;
+  margin: auto;
+}
+
+#footer_info div a {
+  padding: 0;
+  margin: 0;
+}
+
+.footer_links {
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
