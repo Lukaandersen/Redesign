@@ -94,3 +94,28 @@ img {
   filter: invert(1);
   width: 85%;
 }
+
+#categories_bar {
+  display: flex;
+  font-family: jubilat;
+}
+
+#nemt_hurtigt {
+  display: flex;
+}
+
+#nemt_hurtigt div {
+  font-family: jubilat;
+  margin: auto;
+}
+
+#footer_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #005744;
+}
+#footer_info div {
+  font-family: jubilat;
+  color: white;
+}
