@@ -175,7 +175,6 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   background-color: #005744;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -203,4 +202,8 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  margin-top: 3rem;
 }
