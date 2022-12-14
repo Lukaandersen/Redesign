@@ -1,14 +1,89 @@
-.siden_vises_ikke {
-  display: flex;
-  justify-content: center;
-  max-width: 1400px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 1.6;
+html {
+  --primary: #005744;
+  --gray: #eaeaea;
 }
-.sfi_header {
-  opacity: 0.8;
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3,
+h1,
+h2 {
   font-family: jubilat;
+  font-weight: normal;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.products section {
+  justify-self: center;
+  border: 1px solid #707070;
+  background-color: #f0f0f0;
+  justify-content: center;
+}
+
+.product_image {
+  max-width: 15em;
+}
+
+.products div h3,
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: jubilat;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.product1 {
+  grid-column: 2/3;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.main_photo {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.main_photo img {
+  margin: 1rem;
+  width: 90%;
+  grid-column: 2/3;
+}
+
+.product_preview {
+  justify-content: center;
+  justify-self: center;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #005744;
+}
+
+.buy {
+  background-color: var(--primary);
+  width: 20%;
+  margin-left: auto;
+}
+
+.buy img {
+  filter: invert(1);
 }
