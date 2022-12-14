@@ -1,3 +1,71 @@
-div {
-  display: block;
+main {
+  font-family: jubilat;
+}
+
+body {
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.greybox {
+  background-color: #f4f4f4;
+  margin: 50px 10px 50px 10px;
+  padding: 20px;
+}
+
+.beigebox {
+  background-color: #f8f3e1;
+  padding: 20px;
+  grid-row: 1/2;
+  margin-right: 300px;
+  margin-left: 70px;
+}
+
+.sectionheader {
+  text-align: center;
+}
+
+.billede1 {
+  grid-column: 2/3;
+}
+
+.billede4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.billede5 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.billede6 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.beigebox div div {
+  display: flex;
+  margin-left: 30px;
+}
+
+.beigebox div div p {
+  margin: 2px;
 }
