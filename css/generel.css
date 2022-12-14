@@ -15,7 +15,7 @@ img {
 
 #top_bar {
   background-color: var(--primary);
-  padding: 0.4rem;
+  padding: 0.2rem;
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
@@ -72,7 +72,7 @@ img {
   display: flex;
 }
 #logo_bar {
-  margin: 2rem;
+  margin: 1rem;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
@@ -155,7 +155,7 @@ img {
 
 #nemt_hurtigt {
   background-color: #f7f3e3;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .sellingpoint {
@@ -175,7 +175,6 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   background-color: #005744;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -203,4 +202,8 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  margin-top: 3rem;
 }
